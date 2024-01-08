@@ -10,7 +10,6 @@ function exibirTextoNaTela(tag, texto){
     campo.innerHTML = texto;
 }
 exibirMensagemInicial();
-alert("Hello, World!");
 
 function exibirMensagemInicial(){
     exibirTextoNaTela("h1", "Jogo do Número Secreto!");
